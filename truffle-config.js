@@ -1,3 +1,5 @@
+// This is the main configuration file for our Truffle project
+
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
   // for more about customizing your Truffle configuration!
