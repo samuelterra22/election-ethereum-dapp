@@ -12,7 +12,11 @@ module.exports = {
   },
   compilers: {
     solc: {
-      version: "0.5.6" // ex:  "0.4.20". (Default: Truffle's installed solc)
+      version: "0.5.6", // ex:  "0.4.20". (Default: Truffle's installed solc)
+      optimizer: {
+        enabled: true,
+        runs: 200
+      }
     }
   }
 };
