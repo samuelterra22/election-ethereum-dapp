@@ -1,5 +1,5 @@
 {
-  "name": "pet-shop",
+  "name": "election-ethereum-dapp",
   "version": "1.0.0",
   "description": "",
   "main": "truffle.js",
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "truffle test"
   },
   "author": "",
   "license": "ISC",
