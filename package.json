@@ -8,6 +8,8 @@
   },
   "scripts": {
     "dev": "lite-server",
+    "migrate": "truffle migrate",
+    "migrate:reset": "truffle migrate --reset",
     "test": "truffle test"
   },
   "author": "",
